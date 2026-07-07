@@ -11,8 +11,12 @@ body {
     background-color: #F5F5FA;
 
     font-family: "Noto Sans", serif;
-    font-optical-sizing: auto;
 }
+
+input {
+    font-family: "Noto Sans", serif;
+}
+
 button {
     cursor: pointer;
     transition: filter 0.2s;
