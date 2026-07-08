@@ -70,7 +70,7 @@ export default function() {
   return (
     <div className={styles.container}>
       <main>
-        <Header current={score} max={10} onRestart={handleRestartGame} />
+        <Header current={lettersUsed.length} max={challenge.word.length + 5} onRestart={handleRestartGame} />
         <Tip tip={challenge.tip} />
 
         <div className={styles.word}>
